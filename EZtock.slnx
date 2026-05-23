@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EZtock.API/EZtock.API.csproj" />
+    <Project Path="src/EZtock.Application/EZtock.Application.csproj" />
+    <Project Path="src/EZtock.Domain/EZtock.Domain.csproj" />
+    <Project Path="src/EZtock.Infrastructure/EZtock.Infrastructure.csproj" />
+  </Folder>
+</Solution>
