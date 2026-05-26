@@ -28,7 +28,7 @@ namespace EZtock.Domain.Entities
         public decimal Iva { get; set; }
         public decimal CostPriceIva { get; set; }
         public decimal SalePriceIva { get; set; }
-        public bool IsWeb { get; set; }
+        public bool IsPublic { get; set; }
        
     }
 }

@@ -13,8 +13,10 @@ namespace EZtock.Domain.Entities
         public Guid TenantId { get; set; }
         public Tenant Tenant { get; set; }
         public string FullName { get; set; }
+        public string Dni { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
+        public string UserName { get; set; }
         public string PasswordHashed { get; set; }
         public UserRole Role { get; set; }
     }
