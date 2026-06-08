@@ -11,7 +11,6 @@ namespace EZtock.Domain.Entities
     {
         public Guid Id { get; set; }
         public Guid TenantId { get; set; }
-        public Tenant Tenant { get; set; }
         public string FullName { get; set; }
         public string Dni { get; set; }
         public string Email { get; set; }

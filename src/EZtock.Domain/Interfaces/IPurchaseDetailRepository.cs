@@ -1,10 +1,11 @@
-﻿using System;
+﻿using EZtock.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EZtock.Domain.Interfaces
 {
-    public interface IPurchaseDetailRepository : IRepository<IPurchaseDetail>
+    public interface IPurchaseDetailRepository : IRepository<PurchaseDetail>
     {
     }
 }

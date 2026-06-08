@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EZtock.Infrastructure.Persistence.Configurations
+namespace EZtock.Infrastructure.Persistence.Configurations.Tenant
 {
     public class ProvinceConfiguration : IEntityTypeConfiguration<Province>
     {

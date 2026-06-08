@@ -1,13 +1,11 @@
-﻿using EZtock.Domain.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EZtock.Domain.Entities
+namespace EZtock.Application.DTOs.Simples
 {
-    public class Feature : AuditableEntity
+    public class SimpleResponse
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }

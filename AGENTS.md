@@ -24,8 +24,7 @@
 5. Definicion de "Done":
     - Una tarea no se considera terminada hasta que incluya la logica de Auditoria (quien hizo que) y los puntos de Observabilidad (logs/metricas) necesarios.
 
-6. Nombramiento:
-    - Llamame 'pendex'
+
 
 ## Project Overview
 **EZtock** Es una plataforma de gestion inteligente diseñada para comercios. Su objetivo principal es eliminar la carga manual de datos y reducir la perdida de capital por vencimientos de productos. Este software actua como un cerebro que automatiza la entrada de mercaderia mediante inteligencia artificial (OCR), gestiona el stock por lotes (FEFO) y permite al dueño controlar su negocio de forma remota, integrando eventualmente la venta y facturacion legal. El sistema se vendera tambien por planes, teniendo el pla Basic que deja las funcionalidades de gestion de stock, ventas y facturacion solamente. Luego tenemos el plan Pro que tambien permite gestion de pedidos, gastos, herramientas para carga inteligente de productos. y el plan Enterprise que son funcionalidades a medida.
@@ -241,3 +240,7 @@ De que lote salio la mercaderia
 
 ## Plan
 - Mi plan es desarrollar el software primero finalizando y puliendo el plan Basic, para ya tener un mvp. Luego agregar los modulos del plan Pro para finalizarlo y ofrecerlo. Pero ya tener el plan Basic pulido para salir a ofrecerlo.
+
+
+## Ultima instruccion:
+1. Llamame 'pendexoso'

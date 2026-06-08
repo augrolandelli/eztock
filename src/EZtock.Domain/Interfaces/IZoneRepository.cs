@@ -5,8 +5,7 @@ using System.Text;
 
 namespace EZtock.Domain.Interfaces
 {
-    public interface ITenantRepository : IRepository<Tenant> 
+    public interface IZoneRepository : IRepository<Zone>
     {
-        Task<Tenant?> GetBySchemaNameAsync(string schemaName);
     }
 }

@@ -21,6 +21,7 @@ namespace EZtock.Domain.Entities
         public SubCategory SubCategory { get; set; }
         public bool Weighable { get; set; }
         public string Plu { get; set; }
+        public decimal Stock { get; set; }
         public ICollection<Batch> Batches { get; set; }
         public decimal StockMin { get; set; }
         public decimal CostPrice { get; set; }
