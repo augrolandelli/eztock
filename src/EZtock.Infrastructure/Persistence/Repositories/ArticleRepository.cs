@@ -23,5 +23,13 @@ namespace EZtock.Infrastructure.Persistence.Repositories
         {
             return await _context.Articles.FirstOrDefaultAsync(x=>x.Code == code || x.Name == name || x.Plu == plu);
         }
+
+        public async Task<Dictionary<Guid, decimal>> GetPricesByIds(List<Guid> Ids)
+        {
+            return await _context.Articles
+                .Where(a=>Ids.Contains(a.Id))
+                .Select(a=> new {a.Id, a.SalePriceIva})
+                .ToDictionaryAsync(a => a.Id, a => a.SalePriceIva);
+        }
     }
 }

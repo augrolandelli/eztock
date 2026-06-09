@@ -9,5 +9,7 @@ namespace EZtock.Domain.Interfaces
     {
         Task<Article?> GetByCodeAsync(string code);
         Task<Article?> Exist(string code, string name, string plu);
+        Task<Dictionary<Guid, decimal>> GetPricesByIds(List<Guid> Ids);
+
     }
 }

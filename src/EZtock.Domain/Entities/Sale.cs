@@ -13,9 +13,9 @@ namespace EZtock.Domain.Entities
         public Client Client { get; set; }
         public DateTime Date { get; set; }
         public InvoiceType InvoiceType { get; set; }
-
         public decimal SubTotal { get; set; }
         public decimal Discount { get; set; }
         public decimal Total => (SubTotal - ((SubTotal*Discount)/100));
+        public List<SaleDetail> Details { get; set; } = new List<SaleDetail>();
     }
 }

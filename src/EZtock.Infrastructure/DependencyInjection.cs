@@ -23,6 +23,8 @@ namespace EZtock.Infrastructure
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
 
+            services.AddScoped<IArticleService, ArticleService>();
+
 
             return services;
         }
